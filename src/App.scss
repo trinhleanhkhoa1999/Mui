@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app-container{
+  .header-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: orange;
+    padding: 40px;
+    span{
+      font-size: 40px;
+      font-family:'Hachi Maru Pop', cursive;
+    }
+  }
+  .todo-list-container{
+    h1{
+      margin: 50px 0;
+    }
+    text-align: center;
+    form{
+      position: relative;
+      width: 480px;
+      margin: 30px auto 20px auto;
+      background: #fff;
+      padding: 15px;
+      border-radius: 7px;
+      box-shadow: 0 1px 5px rgb(138, 137, 137);
+      input, textarea {
+        width: 100%;
+        border: none;
+        padding: 4px;
+        outline: none;
+        font-size: 1.2em;
+        font-family: inherit;
+        resize: none;
+      }
+    
+      button{
+        position: absolute;
+        right: 18px;
+        bottom: -18px;
+        background: #f5ba13;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .list-container{
+      display: flex;
+      flex-wrap: wrap;
+      gap:30px;
+      form{
+        width: 300px;
+      }
+    }
+  }
+}
