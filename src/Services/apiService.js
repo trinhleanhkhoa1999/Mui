@@ -38,8 +38,7 @@ const deleteUser = async (id) => {
   return res;
 };
 const editUser = async (id, name, email, password) => {
-  const res = await axios.put(`http://localhost:3000/users`, {
-    id,
+  const res = await axios.put(`http://localhost:3000/users/${id}`, {
     name,
     email,
     password,

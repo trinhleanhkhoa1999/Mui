@@ -3,7 +3,6 @@ import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import AddIcon from "@mui/icons-material/Add";
 import ClearIcon from "@mui/icons-material/Clear";
-// import { enqueueSnackbar } from "notistack";
 import { AccountCircle } from "@mui/icons-material";
 import { TextField } from "@mui/material";
 import { editUser } from "../../../Services/apiService";
@@ -75,7 +74,7 @@ export default function ModalEditUser({
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
+    console.log(dataEdit);
     const res = await editUser(
       dataEdit.id,
       dataEdit.name,
@@ -83,7 +82,7 @@ export default function ModalEditUser({
       dataEdit.password
     );
     console.log(res);
-    if (res.status === 201) {
+    if (res.status === 200) {
       ShowAlert("Success create account", "success");
     } else {
       ShowAlert("Error create account", "error");
@@ -94,6 +93,7 @@ export default function ModalEditUser({
       email: "",
       password: "",
     });
+    setOpen(false);
     fetchAllUser();
   };
   return (
@@ -108,7 +108,7 @@ export default function ModalEditUser({
         <span className="close-modal" onClick={() => setOpen(false)}>
           <ClearIcon />
         </span>
-        <h1>Modal Edit user</h1>
+        <h1>Modal Edit User</h1>
         <InputForm
           label="Name User"
           name="name"
@@ -137,7 +137,7 @@ export default function ModalEditUser({
           sx={{ mt: 3, mb: 2 }}
         >
           <AddIcon />
-          CREATE
+          Update user
         </Button>
       </Box>
     </Modal>

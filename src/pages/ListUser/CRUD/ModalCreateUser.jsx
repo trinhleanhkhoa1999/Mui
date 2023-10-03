@@ -125,7 +125,7 @@ export default function ModalCreateUser({
         <span className="close-modal" onClick={() => setOpen(false)}>
           <ClearIcon />
         </span>
-        <h1>Modal create user</h1>
+        <h1>Modal Create User</h1>
         <InputForm
           label="Name User"
           name="name"

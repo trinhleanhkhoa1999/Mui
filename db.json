@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "khoa",
+      "name": "khoa ",
       "email": "a@gamil.com",
-      "password": "adad"
+      "password": "adad",
+      "id": 1
     },
     {
       "id": 3,
@@ -25,10 +25,10 @@
       "password": "khoa123"
     },
     {
-      "id": 5296,
-      "name": "test",
+      "name": "test ",
       "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "khoa123"
+      "password": "khoa123",
+      "id": 5296
     },
     {
       "id": 3538,
@@ -49,88 +49,40 @@
       "password": "adad"
     },
     {
-      "id": 6007,
-      "name": "KNK",
+      "id": 4,
+      "name": "test",
+      "email": "test@gamil.com",
+      "password": "adad"
+    },
+    {
+      "id": 499,
+      "name": "test",
+      "email": "trinhleanhkhoa1999@gmail.com",
+      "password": "khoa123"
+    },
+    {
+      "name": "test ",
+      "email": "trinhleanhkhoa1999@gmail.com",
+      "password": "khoa123",
+      "id": 5296
+    },
+    {
+      "id": 3538,
+      "name": "test",
       "email": "trinhleanhkhoa1999@gmail.com",
       "password": "adadad"
     },
     {
-      "id": 9360,
-      "name": "test",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "chjkv"
-    },
-    {
-      "id": 9361,
+      "id": 9358,
       "name": "KNK",
       "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "ada"
+      "password": "aadad"
     },
     {
-      "id": 3368,
-      "name": "test",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adad"
-    },
-    {
-      "id": 7334,
-      "name": "âfs",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "dgdg"
-    },
-    {
-      "id": 6791,
-      "name": "adad",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adad"
-    },
-    {
-      "id": 2334,
-      "name": "create",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adadad"
-    },
-    {
-      "id": 9660,
+      "id": 9359,
       "name": "test 2",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "aedad"
-    },
-    {
-      "id": 2355,
-      "name": "KNK",
-      "email": "trinhleanhkhoa1999@gmail.com",
+      "email": "adadad",
       "password": "adad"
-    },
-    {
-      "id": 8554,
-      "name": "test refresh",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adadasd"
-    },
-    {
-      "id": 9661,
-      "name": "adadad",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "asdasd"
-    },
-    {
-      "id": 774,
-      "name": "Banana test",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adadad"
-    },
-    {
-      "id": 1808,
-      "name": "test",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adadasd"
-    },
-    {
-      "id": 2257,
-      "name": "test",
-      "email": "trinhleanhkhoa1999@gmail.com",
-      "password": "adadad"
     }
   ]
 }
